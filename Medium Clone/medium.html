@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Clone</title>
+    <link rel="stylesheet" href="medium.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+
+        <!-- Left Navbar -->
+        <div class="left-nav">
+            <h1>Medium</h1>
+
+            <div class="search">
+                <img src="./Images/Search.svg" class="icon">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+
+        <!-- Right Navbar -->
+        <div class="right-nav">
+            <div class="getapp">
+                <a href="#">
+                    <img src="./Images/Get Apps.svg" class="getapp-icon">
+                    <p class="getapp-word">Get App</p>
+                </a>
+            </div>
+            <a href="#">
+                <img src="./Images/Write.svg" class="icon">
+                Write
+            </a>
+
+            <img src="./Images/Bell.svg" class="icon">
+
+            <div class="user">
+                <img src="./Images/User Icon.svg" class="icon">
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+
+        <!-- Left Sidebar -->
+        <aside class="left-side">
+            <ul class="left-top">
+                <li>
+                    <img src="./Images/Home.svg" class="navigator">
+                    Home
+                </li>
+
+                <li>
+                    <img src="./Images/Library.svg" class="navigator">
+                    Library
+                </li>
+
+                <li>
+                    <img src="./Images/Profile.svg" class="navigator">
+                    Profile
+                </li>
+
+                <li>
+                    <img src="./Images/Stories.svg" class="navigator">
+                    Stories
+                </li>
+
+                <li>
+                    <img src="./Images/Stats.svg" class="navigator">
+                    Stats
+                </li>
+            </ul>
+
+            <ul class="follow">
+                <li>
+                    <img src="./Images/Following.svg" class="navigator">
+                    Following
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <img src="./Images/Plus.svg" class="navigator">
+                    Find writers and publications to follow.
+                </li>
+
+                <li class="suggestion">
+                    <a href="#">See Suggestions</a>
+                </li>
+            </ul>
+
+        </aside>
+
+
+        <!-- Center -->
+        <main class="news">
+
+            <div class="tab">
+                <span class="active">For You</span>
+                <span>Featured</span>
+            </div>
+
+
+            <!-- Content 1 -->
+            <article class="card">
+                <div class="card-content">
+                    <p class="name">
+                        John Smith . 3 days ago
+                    </p>
+
+                    <h2>The Most Dangerous OAuth Bug I've Ever Found</h2>
+
+                    <p class="content">
+                        Hello Im John Smith! Somne of you might know me.
+                    </p>
+
+                </div>
+
+                <img src="./Images/Content OAuth Bug.png">
+
+            </article>
+
+            <!-- Content 2 -->
+            <article class="card">
+                <div class="card-content">
+                    <p class="name">
+                        Alina kovtun . Jan 29
+                    </p>
+
+                    <h2>Stop Memorizing Design Patterns: Use This Decision Tree Instead</h2>
+
+                    <p class="content">
+                        Choose design patterns based on pain points:
+                        apply the right pattern with minimal
+                        over-engineering in any OO language.
+                    </p>
+
+                </div>
+
+                <img src="./Images/Design Pattern.webp">
+
+            </article>
+
+
+            <!-- Content 3 -->
+            <article class="card">
+                <div class="card-content">
+                    <p class="name">
+                        Will Lockett . Mar 15
+                    </p>
+
+                    <h2>You Have No Idea How Far Behind Tesla Is</h2>
+
+                    <p class="content">
+                        The leapfrog moment has just happened.
+                    </p>
+
+                </div>
+
+                <img src="./Images/Tesla.webp">
+
+            </article>
+
+
+            <!-- Content 4 -->
+            <article class="card">
+                <div class="card-content">
+                    <p class="name">
+                        Sanjay Singh . Apr 25
+                    </p>
+
+                    <h2>Java Spring Boot Microservices Learning Roadmap (2026)</h2>
+
+                    <p class="content">
+                        Theory → Code → Project → Interview Questions → Real Scenarios
+                    </p>
+
+                </div>
+
+                <img src="./Images/Java Roadmap.webp">
+
+            </article>
+
+        </main>
+
+
+        <!-- Right Sidebar -->
+        <aside class="right-side">
+
+            <h3>Staff Picks</h3>
+
+            <div class="pick">
+                <p class="pick-name"> KYO - Japanese writer, Tokyo </p>
+                <h4>The Carp Flies for Boys. The Doll Sits for Girls.</h4>
+                <p class="pick-date">⭐  Jun 4</p>
+            </div>
+
+            <div class="pick">
+                <p class="pick-name"> In UX Collective by Wira Indra Kusuma</p>
+                <h4>We used to log off</h4>
+                <p class="pick-date">⭐  6d ago</p>
+            </div>
+
+            <div class="pick">
+                <p class="pick-name"> Dannagal Young </p>
+                <h4>My “Friend” Stephen: A Tale of Two Timelines</h4>
+                <p class="pick-date">⭐  May 21</p>
+            </div>
+
+            <div>
+                <p>
+                    <a href="#" class="full-list">See full list</a>
+                    </small>
+            </div>
+
+            <h3 class="topic-title">
+                Recommended Topics
+            </h3>
+
+            <div class="topics">
+                <span>
+                    <img src="./Images/Plus.svg" class="topic-add">
+                    Data Science
+                </span>
+
+                <span>
+                    <img src="./Images/Plus.svg" class="topic-add">
+                    Self Improvement
+                </span>
+
+                <span>
+                    <img src="./Images/Plus.svg" class="topic-add">
+                    Writing
+                </span>
+
+                <span>
+                    <img src="./Images/Plus.svg" class="topic-add">
+                    Relationships
+                </span>
+
+                <span>
+                    <img src="./Images/Plus.svg" class="topic-add">
+                    Politics
+                </span>
+
+                <span>
+                    <img src="./Images/Plus.svg" class="topic-add">
+                    Cryptocurrency
+                </span>
+
+                <span>
+                    <img src="./Images/Plus.svg" class="topic-add">
+                    Productivity
+                </span>
+
+            </div>
+
+            <div class="more-topics">
+                <a class="topics-link">See more topics</a>
+            </div>
+
+        </aside>
+
+    </div>
+
+</body>
+
+</html>
